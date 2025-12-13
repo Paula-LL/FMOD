@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{083b7b0b-da90-497a-af87-3ec26f1c0f29}">
+		<property name="name">
+			<value>MidVolume</value>
+		</property>
+		<relationship name="folder">
+			<destination>{68cb9ff2-a932-4c7b-8b01-53fde1050992}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{e91d8079-a00c-4118-b52f-8e94443603b8}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{e91d8079-a00c-4118-b52f-8e94443603b8}">
+		<property name="initialValue">
+			<value>0.5</value>
+		</property>
+	</object>
+</objects>

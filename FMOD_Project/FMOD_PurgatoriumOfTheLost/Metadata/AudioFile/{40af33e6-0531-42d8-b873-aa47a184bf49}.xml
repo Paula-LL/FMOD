@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{40af33e6-0531-42d8-b873-aa47a184bf49}">
+		<property name="assetPath">
+			<value>gentle-instrumental-1-322812.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>240.048</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{74dc5e87-68fa-42fd-8edf-b21d84c7f623}</destination>
+		</relationship>
+	</object>
+</objects>

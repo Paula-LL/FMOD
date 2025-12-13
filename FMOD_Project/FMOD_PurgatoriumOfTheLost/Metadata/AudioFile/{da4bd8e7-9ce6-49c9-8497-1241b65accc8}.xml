@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{da4bd8e7-9ce6-49c9-8497-1241b65accc8}">
+		<property name="assetPath">
+			<value>tempo-twist-logo-203267.mp3</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>5.929795918367347</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{74dc5e87-68fa-42fd-8edf-b21d84c7f623}</destination>
+		</relationship>
+	</object>
+</objects>
