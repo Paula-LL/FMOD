@@ -10,8 +10,8 @@ public class GameController : MonoBehaviour
     [SerializeField] private EventReference musicInsEvent;
 
     [Header("UI Sliders")]
-    [SerializeField] private Slider ChorusSlider;       // Slider per controlar el Low-Pass
-    [SerializeField] private Slider MidVolumeSlider;       // Slider per controlar el Reverb
+    [SerializeField] private Slider ChorusSlider;      
+    [SerializeField] private Slider MidVolumeSlider;     
 
     private EventInstance musicInstance;
     private EventInstance musicInsInstance;
@@ -65,13 +65,11 @@ public class GameController : MonoBehaviour
 
     private void OnChorusChanged(float value)
     {
-        // Modifica el paràmetre continuous "FilterAmount"
         musicInstance.setParameterByName("ChorusIntensity", value);
     }
 
     private void OnMidVolumeChanged(float value)
-    {
-        // Modifica el paràmetre continuous "ReverbIntensity"
+    {  
         musicInstance.setParameterByName("MidVolume", value);
     }
     private void VCAGeneralOnValueChanged(float value)

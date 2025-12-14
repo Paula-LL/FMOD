@@ -68,10 +68,10 @@ MonoBehaviour:
   Path: ../FMOD_Project/FMOD_PurgatoriumOfTheLost/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639013118653149783
+  lastModified: 639013140043883205
   FileSizes:
   - Name: Desktop
-    Value: 3153344
+    Value: 3153280
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -97,7 +97,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: 8280374880748220165}
   cacheVersion: 131857
-  cacheTime: 639013118653149783
+  cacheTime: 639013140043888221
   SerializableEventsDict:
   - key: event:/MainMusicDef
     index: 0
@@ -142,7 +142,7 @@ MonoBehaviour:
   Path: ../FMOD_Project/FMOD_PurgatoriumOfTheLost/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639013118653149783
+  lastModified: 639013140043888221
   FileSizes:
   - Name: Desktop
     Value: 1152
